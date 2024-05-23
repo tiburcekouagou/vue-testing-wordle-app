@@ -1,7 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import WordleBoard from './components/WordleBoard.vue'
+</script>
 
 <template>
-  <div>Hello World !</div>
+  <div>
+    <WordleBoard />
+  </div>
 </template>
 
 <style scoped></style>
